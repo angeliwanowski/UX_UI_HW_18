@@ -67,7 +67,7 @@ hr {
     align-items: center;
 }
 .theGoods {
-    background-image: url("/images/archlol.png");
+    background-image: url("images/archlol.png");
     background-size: cover;
     border-bottom: solid #101ECB 9px;
     margin: 20px;
