@@ -64,3 +64,15 @@ a {
     font-weight: 600;
     color: #101ECB;
     }
+.grid-container {
+    display: grid;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    color: #101ECB;
+    font-size: 36px;
+    grid-template-columns: 1fr 1fr;
+    columns: 2;
+}
+.input1 {
+    width: 200px;
+}

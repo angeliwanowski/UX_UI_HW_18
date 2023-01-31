@@ -170,6 +170,8 @@ h3 {
     display: flex;
     flex-direction: row;
 }
+
+}
 .toolsandcode {
     display: flex;
     flex-direction: column;
@@ -239,4 +241,66 @@ hr {
     font-weight: 600;
     color: #101ECB;
     font-size: 40px;
+}
+@media screen and (max-width: 850px) {
+    .theGoods {
+        background-image: none;
+        background-size: cover;
+    }
+    .masterofLists {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media screen and (max-width: 600px) {
+    .masterofLists {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    h1 {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        color: #101ECB;
+        text-align: center;
+        font-size: 28px;
+    }
+    p {
+        font-family: 'Raleway', sans-serif;
+        font-weight: 500;
+        color: #101ECB;
+        text-align: center;
+        font-size: 22px;
+        line-height: 1.75;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .meHomey {
+        width: 60%;
+        height: auto;
+        align-items: center;
+    }
+    .stairs {
+        width: 250px;
+        height: auto;
+        margin-left: 200px;
+        margin-bottom: 10px;
+    }
+    .theGoods {
+        background-image: none;
+        background-size: cover;
+    }
+    .buttonBLOCK button {
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 5px;
+        margin-left: 15%;
+    } 
 }
